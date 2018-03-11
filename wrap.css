@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+}
+.Record-page{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.logo1{
+    padding-top: 20px;
+    text-align: center;
+}
+.content{
+    padding-top: 30px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.container1{
+    position: absolute;
+    Left:10%;
+    bottom: 25%;
+     width:60px;
+     height:60px;
+     background-color:#009e96;
+     border-radius:50%;
+ }
+.container2{
+    position: absolute;
+    right:10%;
+    bottom: 25%;
+    width:60px;
+    height:60px;
+    background-color:#009e96;
+    border-radius:50%;
+}
+.logo2 {
+}
+.name{
+    bottom:10%;
+}
+
+p{
+    color:#fff;
+    font-size:1rem;
+    font-family:"Times New Roman",Georgia,Serif;
+}
