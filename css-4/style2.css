@@ -9,9 +9,12 @@ a {
     text-decoration:none;
     out-line: none;
     color: #83ccd7;
+    /*清除a标签默认样式并更改默认颜色*/
 }
+
 body{
     background-color: #eff0f4;
+    /*背景颜色*/
 }
 .header{
     margin:0 0 20px 0;
