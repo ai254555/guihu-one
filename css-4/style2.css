@@ -7,7 +7,6 @@
 }
 a {
     text-decoration:none;
-    out-line: none;
     color: #83ccd7;
     /*清除a标签默认样式并更改默认颜色*/
 }
@@ -16,38 +15,37 @@ body{
     background-color: #eff0f4;
     /*背景颜色*/
 }
-.header{
-    margin:0 0 20px 0;
-    float: left;
-    height: 40px;
+header{
+    box-sizing: border-box;
+    /*固定的盒子大小*/
+    position:fixed;
+    /*固定定位*/
+    padding: 12px;
+    top: 0;
+    text-align:center;
+    /*居中对齐*/
     width: 100%;
     background-color:#5fc0cd;
     color: #ffffff;
-    position: fixed;
-    top: 0;
-    text-align: center;
 }
 .Close{
     float: left;
-    margin:0 0 0 20px;
     font-size: 16px;
-    line-height: 40px;
+
 }
 .Sign-in{
     font-size: 18px;
-    line-height: 40px;
-
+    margin:0 40px;
 }
+
 .register{
-    margin:0 20px 0 0;
     float: right;
     font-size: 16px;
-    line-height: 40px;
 }
 
 
 .frame1{
-    margin: 40px 0 20px;
+    margin: 60px 0 20px;
     border-color: #eff0f4;
     width:100%;
     height: 60px;
@@ -55,30 +53,35 @@ body{
 }
 .user{
     position: absolute;
+    border-right:1px solid #eaedee;
     background-color:#ffffff;
     height: 60px;
     width:80px;
+    text-align: center;
 }
 img{
-    padding:5px 0px 5px 20px;
-    vertical-align:middle;
+    margin:15px 0;
 }
 .Password{
     position: absolute;
+    border-right:1px solid #eaedee;
     background-color:#ffffff;
     height: 60px;
     width:80px;
-
+    text-align: center;
 }
+
 input{
     position: absolute;
-    left: 80px;
+    left: 81px;
     text-indent:20px;
     outline: none;
     border:none;
     height: 60px;
-    width: calc(100% - 61px);
+    width: calc(100% - 81px);
+    /*宽度比100%少81像素*/
 }
+
 input::-webkit-input-placeholder{color:#e1e5e7}
 
 input::-moz-placeholder{color:#e1e5e7}
@@ -93,7 +96,7 @@ button{
     color: #ffffff;
 }
 
-.Forget-the-password{
+span>a{
     font-size: 18px;
     color: #83ccd7;
     float: right;
