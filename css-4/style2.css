@@ -53,33 +53,52 @@ header{
 }
 .user{
     position: absolute;
-    border-right:1px solid #eaedee;
     background-color:#ffffff;
     height: 60px;
     width:80px;
     text-align: center;
+}
+.user:after{
+    content: "";
+    position: absolute;
+    left: auto;
+    top: auto;
+    bottom: 15px;
+    right: 0;
+    height: 50%;
+    width: 1px;
+    background-color: #eaedee;
 }
 img{
     margin:15px 0;
 }
 .Password{
     position: absolute;
-    border-right:1px solid #eaedee;
     background-color:#ffffff;
     height: 60px;
     width:80px;
     text-align: center;
 }
-
+.Password:after{
+    content: "";
+    position: absolute;
+    left: auto;
+    top: auto;
+    bottom: 15px;
+    right: 0;
+    height: 50%;
+    width: 1px;
+    background-color: #eaedee;
+}
 input{
     position: absolute;
-    left: 81px;
+    left: 80px;
     text-indent:20px;
     outline: none;
     border:none;
     height: 60px;
-    width: calc(100% - 81px);
-    /*宽度比100%少81像素*/
+    width: calc(100% - 80px);
+    /*宽度比100%少80像素*/
 }
 
 input::-webkit-input-placeholder{color:#e1e5e7}
