@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    list-style:none;
+
+}
+a {
+    text-decoration:none;
+    color: #83ccd7;
+    /*清除a标签默认样式并更改默认颜色*/
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
+
+}
+header{
+    box-sizing: border-box;
+    /*固定的盒子大小*/
+    position: fixed;
+    /*固定定位*/
+    padding: 12px;
+    top: 0;
+    text-align: center;
+    /*居中对齐*/
+    width: 100%;
+    background-color: #5fc0cd;
+    color: #ffffff;
+    font-size: 18px;
+}
+.homepage{
+    float: left;
+}
+
+.Head-portrait{
+    position: absolute;
+    text-align: center;
+    line-height:250px;
+    z-index: 1;
+}
+
+.background-image{
+    height:200px;
+    width: 100%;
+
+}
+
+main{
+    position:absolute;
+    top: 53px;
+}
+.background-image img{
+    height:200px;
+    width: 100%;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.news{
+    position: absolute;
+    line-height:180px;
+    width:100%;
+    text-align: center;
+    z-index: 1;
+}
+.Location{
+    position: absolute;
+    line-height:220px;
+    text-align: center;
+    z-index: 1;
+}
+
+.message{
+    height: 20px;
+    width: 50%;
+}
