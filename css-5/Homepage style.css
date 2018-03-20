@@ -67,9 +67,13 @@ main{
 }
 .Location{
     position: absolute;
-    line-height:220px;
+    line-height:240px;
     text-align: center;
     z-index: 1;
+    font-size:14px;
+}
+..Location>img{
+
 }
 
 .message{
