@@ -8,9 +8,6 @@ html {
     list-style:none;
 }
 a {
-    width:.23rem;
-    height:.37rem;
-    margin: -.5rem .1rem;
     text-decoration:none;
     color: #83ccd7;
     /*清除a标签默认样式并更改默认颜色*/
@@ -49,8 +46,9 @@ header{
     height: 3rem;
     background-image:url("tuceng/beijing.png") ;
     background-repeat: no-repeat;
+    /*图片不重复出现*/
     background-size: cover;
-    padding-left:  .1rem;
+    padding-left: .1rem;
     z-index: 0;
     display: flex;
     justify-content: flex-start;
@@ -179,40 +177,54 @@ footer {
     height: .8rem;
     background-color:white;
     position: fixed;
+    /*绝对定位的元素，相对于浏览器窗口进行定位*/
     bottom: 0;
+    /*底边外边距设置为0*/
     display:flex;
+    /*单个元素水平居中*/
     justify-content: space-around;
+    /*项目位于各行之间留有空白的容器内*/
     align-items: flex-start;
+    /*项目位于容器的开头*/
     z-index: 888888;
+    /*突出在页面最前面*/
 }
 .message {
     width: 35vw;
     height:.6rem;
-    border: 3px solid #5FC0CD;;
-    background-color: white;
     border-radius: 10px;
+    border: 3px solid #5FC0CD;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    white-space: nowrap;
 }
 .B{
-    font-size: .25rem;
-    color: #5FC0CD;;
+    font-size: .2rem;
+    color: #5FC0CD;
     text-decoration: none;
 }
 .Telephone-contact {
     width: 35vw;
     height: .6rem;
     border-radius: 10px;
+    /*10像素圆角*/
     border: 3px solid #5FC0CD;
+    /*3像素 实体 颜色#5fc0cd*/
     background-color: #5FC0CD;
+    /*背景颜色#5fc0cd*/
     display: flex;
+    /*单个元素水平居中*/
     justify-content: center;
+    /*项目位于容器的中心*/
     align-items: center;
+    /*项目位于容器的中心*/
     white-space: nowrap;
+    /*段落中的文本不进行换行*/
 }
 .C{
     text-decoration: none;
-    font-size: .25rem;
+    font-size: .2rem;
     color: #FFF;
 }
