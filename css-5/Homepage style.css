@@ -1,32 +1,37 @@
+html {
+    font-size: 625%;
+}
 *{
     margin:0;
     padding:0;
     border:0;
     list-style:none;
-
 }
 a {
+    width:.23rem;
+    height:.37rem;
+    margin: -.5rem .1rem;
     text-decoration:none;
     color: #83ccd7;
     /*清除a标签默认样式并更改默认颜色*/
 }
 body {
     font-family: -apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
-
+    overflow-x: hidden;
 }
 header{
     box-sizing: border-box;
     /*固定的盒子大小*/
     position: fixed;
     /*固定定位*/
-    padding: 12px;
+    padding: .12rem;
     top: 0;
     text-align: center;
     /*居中对齐*/
     width: 100%;
     background-color: #5fc0cd;
     color: #ffffff;
-    font-size: 18px;
+    font-size: .18rem;
 }
 .homepage{
     float: left;
@@ -35,48 +40,179 @@ header{
 .Head-portrait{
     position: absolute;
     text-align: center;
-    line-height:250px;
+    line-height: 3rem;
     z-index: 1;
 }
 
 .background-image{
-    height:200px;
     width: 100%;
-
+    height: 3rem;
+    background-image:url("tuceng/beijing.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left:  .1rem;
+    z-index: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 main{
     position:absolute;
-    top: 53px;
+    top: .53rem;
 }
-.background-image img{
-    height:200px;
-    width: 100%;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-}
+
 
 .news{
     position: absolute;
-    line-height:180px;
+    line-height:2.8rem;
     width:100%;
     text-align: center;
     z-index: 1;
+    font-size:.16rem;
 }
 .Location{
     position: absolute;
-    line-height:240px;
+    line-height:3.2rem;
     text-align: center;
     z-index: 1;
-    font-size:14px;
+    font-size:.14rem;
 }
-..Location>img{
-
+.jineng {
+    width: 100%;
+    height: .6rem;
+    position: relative;
+    top: -1.6rem;
+    font-size: .2rem;
+    border-bottom: 1px solid #EEF0F1;
+    margin-top: 1.6rem;
+    line-height: .6rem;
+    padding-left: .6rem;
+}
+.jineng:before {
+    content: '';
+    position: absolute;
+    left: 0.2rem;
+    top: 25%;
+    bottom: auto;
+    right: auto;
+    height: 50%;
+    width: .05rem;
+    background-color: #5FC0CD;
 }
 
-.message{
-    height: 20px;
-    width: 50%;
+.ps {
+    width: 100%;
+    height: .45rem;
+    position:relative;
+    top: -1.6rem;
+    left: .2rem;
+    display: flex;
+    align-items: center;
+    font-size: .15rem;
+    border-bottom: 1px solid #EEF0F1;
+}
+.ps1 {
+    width: .7rem;
+    height: .23rem;
+    border-right: 1px solid #EEF0F1;
+    padding-left: .1rem;
+}
+.ps2 {
+    width: 1.5rem;
+    height: .23rem;
+    margin-left: .2rem;
+}
+
+.img1{
+    width: .15rem;
+    height: .15rem;
+    padding-right:.05rem;
+    line-height:.23rem;
+}
+ul{
+    width:auto;
+    height: 1rem;
+    position: relative;
+    top: -1.6rem;
+    left: .2rem;
+}
+li {
+    width:auto;
+    display: flex;
+    align-items: center;
+    padding: .15rem;
+    border-bottom: 1px solid #EEF0F1;
+    font-size: .15rem;
+    left: .2rem;
+}
+.ps3,
+.ps6 {
+    color: #C0C0C0;
+    margin-right: .2rem;
+}
+.ps4,
+.ps5 {
+    border-left: 1px solid #EEF0F1;
+    padding-left: .2rem;
+}
+.ps5 {
+    color: #e26163;
+}
+li.ps8 {
+    width: auto;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #EEF0F1;
+    margin-left: -.4rem;
+}
+.ps6 {
+    border-right: 1px solid #EEF0F1;
+    white-space: nowrap;
+    padding: 0 .2rem 0 .4rem;
+}
+.ps7 {
+    font-size: .15rem;
+}
+footer {
+    width: 100vw;
+    height: .8rem;
+    background-color:white;
+    position: fixed;
+    bottom: 0;
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    z-index: 888888;
+}
+.message {
+    width: 35vw;
+    height:.6rem;
+    border: 3px solid #5FC0CD;;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.B{
+    font-size: .25rem;
+    color: #5FC0CD;;
+    text-decoration: none;
+}
+.Telephone-contact {
+    width: 35vw;
+    height: .6rem;
+    border-radius: 10px;
+    border: 3px solid #5FC0CD;
+    background-color: #5FC0CD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+.C{
+    text-decoration: none;
+    font-size: .25rem;
+    color: #FFF;
 }
