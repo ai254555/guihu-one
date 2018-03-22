@@ -34,6 +34,12 @@ header{
     float: left;
 }
 
+main{
+    position:absolute;
+    top: .53rem;
+    width: 100%;
+}
+
 .Head-portrait{
     position: absolute;
     text-align: center;
@@ -48,6 +54,7 @@ header{
     background-repeat: no-repeat;
     /*图片不重复出现*/
     background-size: cover;
+    /*把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。*/
     padding-left: .1rem;
     z-index: 0;
     display: flex;
@@ -55,27 +62,34 @@ header{
     align-items: center;
 }
 
-main{
-    position:absolute;
-    top: .53rem;
-}
-
-
 .news{
-    position: absolute;
-    line-height:2.8rem;
-    width:100%;
-    text-align: center;
-    z-index: 1;
-    font-size:.16rem;
+    margin-left: 1rem;
 }
+
+.name-age{
+    margin-left: .3rem;
+    font-size: .18rem;
+    color: white;
+    margin-bottom: .2rem;
+}
+.name-age span{
+    font-size: .18rem;
+    color: white;
+}
+
+
 .Location{
-    position: absolute;
-    line-height:3.2rem;
-    text-align: center;
-    z-index: 1;
-    font-size:.14rem;
+    width: 1.5rem;
+    height: 23px;
+    background-repeat: no-repeat;
+    background-size: .18rem .23rem;
+    background-position: 0 50%;
+    font-size: .14rem;
+    color: white;
+    line-height: 23px;
+    padding-left: .3rem;
 }
+
 .jineng {
     width: 100%;
     height: .6rem;
