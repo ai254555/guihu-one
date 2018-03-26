@@ -1,5 +1,6 @@
 html {
     font-size: 625%;
+    height: 100%;
 }
 *{
     margin:0;
@@ -15,6 +16,8 @@ a {
 body {
     font-family: -apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
     overflow-x: hidden;
+    height: 100%;
+    width: 100%;
     /*裁剪 body 元素中内容的左/右边缘 - 如果溢出元素的内容区域的话*/
 }
 header{
@@ -30,7 +33,7 @@ header{
     background-color: #5fc0cd;
     color: #ffffff;
     font-size: .18rem;
-    z-index: 0;
+    z-index: 99999;
 }
 .homepage{
     float: left;
@@ -150,6 +153,7 @@ ul{
     position: relative;
     top: -1.6rem;
     left: .2rem;
+    margin: 0 0 1rem 0;
 }
 li {
     width:auto;
@@ -188,6 +192,12 @@ li.ps8 {
 .ps7 {
     font-size: .15rem;
 }
+.kong{
+    position: fixed;
+    width: 100vw;
+    height: .8rem;
+    bottom: 0;
+}
 footer {
     width: 100vw;
     height: .8rem;
@@ -202,8 +212,9 @@ footer {
     /*项目位于各行之间留有空白的容器内*/
     align-items: flex-start;
     /*项目位于容器的开头*/
-    z-index: 8;
+    z-index: 88888;
     /*突出在页面最前面*/
+
 }
 .message {
     width: 35vw;
