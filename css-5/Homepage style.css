@@ -21,7 +21,6 @@ body {
     /*裁剪 body 元素中内容的左/右边缘 - 如果溢出元素的内容区域的话*/
 }
 header{
-    box-sizing: border-box;
     /*固定的盒子大小*/
     position: fixed;
     /*固定定位*/
@@ -192,12 +191,7 @@ li.ps8 {
 .ps7 {
     font-size: .15rem;
 }
-.kong{
-    position: fixed;
-    width: 100vw;
-    height: .8rem;
-    bottom: 0;
-}
+
 footer {
     width: 100vw;
     height: .8rem;
